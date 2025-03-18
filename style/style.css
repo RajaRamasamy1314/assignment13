@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  font-family: "poppins", sans-serif;
+  color: azure;
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px;
+}
+ul {
+  list-style: none;
+  display: flex;
+}*/
+
+.linkbuttons {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+  padding-right: 80px;
+}
+.linkbuttons ul {
+  justify-content: left;
+  gap: 10%;
+  list-style: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: azure;
+}
+.secondpart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.text {
+  max-width: 50%;
+}
+img {
+  padding-top: 50px;
+  padding-right: 200px;
+}
+.musician {
+  font-size: 55px;
+}
+.reponsivenav {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: azure;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .reponsivenav {
+    display: block;
+  }
+  .secondpart {
+    flex-direction: column;
+    text-align: center;
+  }
+  .text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .linkbuttons {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
